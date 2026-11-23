@@ -6,7 +6,7 @@ import { useState } from "react";
 export function PgnImporter() {
   const [pgn, setPgn] = useState("");
   const [moves, setMoves] = useState<string[]>([]);
-  const [headers, setHeaders] = useState<Record<string, string>>({});
+  const [headers, setHeaders] = useState<Record<string, string | null>>({});
   const [error, setError] = useState("");
   const [loaded, setLoaded] = useState(false);
 
