@@ -1,0 +1,10 @@
+{
+  "name": "FreeChess",
+  "short_name": "FreeChess",
+  "description": "Todo el ajedrez. Una sola plataforma. Gratis para todos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071510",
+  "theme_color": "#071510",
+  "lang": "es"
+}
